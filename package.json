@@ -1,0 +1,34 @@
+{
+  "name": "reactnativewave",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "run-ios": "react-native run-ios --simulator 'iPhone X'",
+    "run-android": "react-native run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/cli": "7.0.0-beta.47",
+    "@babel/core": "7.0.0-beta.47",
+    "@babel/plugin-proposal-decorators": "7.0.0-beta.47",
+    "babel-preset-react-native": "^5.0.2",
+    "eslint": "^3",
+    "eslint-config-fbjs-opensource": "^1.0.0",
+    "parse5": "^5.0.0",
+    "prettier": "^1.14.2",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-art-wave": "^1.0.3",
+    "react-native-canvas": "^0.1.24"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.0",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
