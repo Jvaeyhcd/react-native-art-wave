@@ -1,7 +1,17 @@
 {
-  "name": "reactnativewave",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-art-hcdwave",
+  "version": "0.0.2",
+  "description": "A concise water wave animation process view writed by React Native Art.",
+  "main": "src/components/HcdWaveView.js",
+  "author": "Jvaeyhcd",
+  "license": "ISC",
+  "keywords": [
+    "react-native",
+    "react-native-art-wave",
+    "react-native-art-hcdwave",
+    "art",
+    "wave"
+  ],
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "run-ios": "react-native run-ios --simulator 'iPhone X'",

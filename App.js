@@ -8,12 +8,8 @@
 
 import React, {Component} from 'react';
 import {
-  ART, 
-  Platform, 
   StyleSheet, 
-  Text, 
-  View,
-  Dimensions
+  View
 } from 'react-native';
 
 import { HcdWaveView } from './src/components/HcdWaveView'
@@ -22,6 +18,12 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <HcdWaveView
+          surfaceWidth = {230} 
+          surfaceHeigth ={230}
+          powerPercent = {76}
+          type="dc"
+          style = {{backgroundColor:'#FF7800'}}></HcdWaveView>
         <HcdWaveView
           surfaceWidth = {230} 
           surfaceHeigth ={230}
@@ -39,15 +41,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#18A4FD',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5
-  },
+  }
 });

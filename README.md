@@ -1,12 +1,73 @@
-# react-native-art-wave
-An animate wave view writed by React Native Art.
+# react-native-art-hcdwave
+A concise water wave animation process view writed by React Native Art.
 
-## Run
+![Example 1](https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/ac.gif?raw=true)
+
+![Example 2](https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/dc.gif?raw=true)
+
+## Install
+``` bash
+npm i react-native-art-hcdwave
+```
+
+## Run Example
 
 ``` bash
 yarn
 yarn start
 yarn run-ios            # 运行iPhone X模拟器
 yarn run-android        # 运行Android客户端
+```
+
+## Dependency
+
+### Android
+
+Don't need any dependency. Android incloud the ART library.
+
+### iOS
+
+1. Right click on the project -> Add Files to `Your Project Name` -> Select `Project path`/node_modules/react-native/Libraries/ART/ART.xcodeproj.
+2. Add `libART.a` to 'Link Binary With Libraries'.
+
+## Example
+``` javascript
+import React, {Component} from 'react';
+import {
+  StyleSheet, 
+  View
+} from 'react-native';
+
+import { HcdWaveView } from './src/components/HcdWaveView'
+
+export default class App extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <HcdWaveView
+          surfaceWidth = {230} 
+          surfaceHeigth ={230}
+          powerPercent = {76}
+          type="dc"
+          style = {{backgroundColor:'#FF7800'}}></HcdWaveView>
+        <HcdWaveView
+          surfaceWidth = {230} 
+          surfaceHeigth ={230}
+          powerPercent = {76}
+          type="ac"
+          style = {{backgroundColor:'#FF7800'}}></HcdWaveView>
+      </View>
+    )
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#18A4FD',
+  }
+});
 ```
 
