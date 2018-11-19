@@ -1,8 +1,8 @@
 {
   "name": "react-native-art-hcdwave",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A concise water wave animation process view writed by React Native Art.",
-  "main": "src/components/HcdWaveView.js",
+  "main": "src/components/index.js",
   "author": "Jvaeyhcd",
   "license": "ISC",
   "keywords": [
