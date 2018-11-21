@@ -1,6 +1,8 @@
 # react-native-art-hcdwave
 A concise water wave animation process view writed by React Native Art.
-<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/ios.gif?raw=true" width="250"/>
+
+<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/ios.gif?raw=true" width="375"/>
+<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/android.gif?raw=true" width="375"/>
 ![Example 2](https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/android.gif?raw=true)
 
 ## Install
@@ -13,8 +15,8 @@ npm i react-native-art-hcdwave
 ``` bash
 yarn
 yarn start
-yarn run-ios            # 运行iPhone X模拟器
-yarn run-android        # 运行Android客户端
+yarn run-ios            
+yarn run-android        
 ```
 
 ## Dependency
