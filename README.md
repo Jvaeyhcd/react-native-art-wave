@@ -1,9 +1,7 @@
 # react-native-art-hcdwave
 A concise water wave animation process view writed by React Native Art.
 
-<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/ios.gif?raw=true" width="375"/>
-<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/android.gif?raw=true" width="375"/>
-![Example 2](https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/android.gif?raw=true)
+<img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/ios.gif?raw=true" width="375"/> <img src="https://github.com/Jvaeyhcd/react-native-art-wave/blob/master/gif/android.gif?raw=true" width="375"/>
 
 ## Install
 ``` bash
